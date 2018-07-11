@@ -1,0 +1,84 @@
+.Post{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px 30px 20px;
+    margin-bottom: 20px;
+    background: #eeeeee;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 1px 3px 3px rgba(191, 191, 191, 0.7);
+}
+
+.Post a{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Post a:hover{
+    text-decoration: underline;
+}
+
+.PostContent{
+    width: 65%;
+    padding-left: 6px;
+}
+
+.PostContent p:nth-of-type(1){
+    margin-bottom: 12px;
+}
+
+.PostImg{
+    width: 32%;
+
+}
+
+.PostImg img{
+    max-width: 100%;
+}
+
+
+
+/**** Media Queries ******/
+@media screen and (max-width: 840px){
+    .Post{
+        justify-content: space-between;
+    }
+
+    .PostContent{
+        width: 60%;
+        font-size: 14px;
+        padding-left: 0px;
+    }
+
+    .PostImg{
+        width: 35%;
+    }
+}
+
+@media screen and (max-width: 670px){
+    .Post{
+        display: block;
+        padding: 0px;
+        margin-bottom: 28px;
+    }
+
+    .PostContent{
+        width: 100%;
+        background: #eee;
+        padding: 15px 10px 20px;
+    }
+
+    .PostImg{
+        background: transparent;
+        width: 100%;
+    }
+
+    .PostImg img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+}
+

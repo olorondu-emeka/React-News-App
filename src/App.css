@@ -1,0 +1,15 @@
+.App {
+  background: #fcfcfc;
+  margin: 0;
+  padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.Title{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.SubTitle{
+    text-align: center;
+}
